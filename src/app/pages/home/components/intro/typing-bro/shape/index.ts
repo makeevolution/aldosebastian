@@ -1,0 +1,9 @@
+export { cloud } from './data/cloud';
+export { floor } from './data/floor';
+export { logo } from './data/logo';
+export { man } from './data/man';
+export { background } from './data/background';
+export { plant } from './data/plant';
+export { sea } from './data/sea';
+export { stars } from './data/stars';
+export { sun } from './data/sun';
