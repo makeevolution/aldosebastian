@@ -13,7 +13,7 @@ import profileData from '@data/profile.data';
       <p class="justify-start">I'm Aldo Sebastian, a software
         engineer with over
         three years of
-        experience. I specialize in backend development, with</p>
+        experience. I specialize in backend development, passionate in building robust, large-scale software solutions.</p>
       <p *ngFor="let a of aboutDetails"><b class="dark:text-white text-black">{{a.title}}</b><br />{{a.desc}}
       </p>
   </div>

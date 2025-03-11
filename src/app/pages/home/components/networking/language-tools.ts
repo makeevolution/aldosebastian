@@ -14,7 +14,7 @@ import { Devicon } from '@shared/components/devicon/devicon';
   standalone: true,
   template: `
   <section class="mt-10">
-  <h1 class="text-2xl dark:text-white">Languages</h1>
+  <h1 class="text-2xl dark:text-white">Languages and Tools</h1>
   <div class="flex flex-wrap h-1/2 py-6">
     @for (t of lts.languageTools(); track t.name) {
       <a [href]="t.url" [attr.aria-label]="t.name" target="_blank">

@@ -4,20 +4,22 @@ import profileData from '@data/profile.data';
 import { ExpertiseArea } from '@pages/home/components/expertise-area/expertise-area';
 import { Intro } from '@pages/home/components/intro/intro';
 import { LanguageTools } from '@pages/home/components/language-tools/language-tools';
-import { InWork } from '@pages/home/components/in-work/in-work';
+import { DevOps } from '@pages/home/components/devops/devops'
+import { Databases } from '@pages/home/components/databases/databases';
 import { Loader } from '@shared/components/loader/loader';
 @Component({
   selector: 'home-page',
+  standalone: true,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  standalone: true,
-  imports: [ExpertiseArea, Intro, LanguageTools, InWork, Loader],
+  imports: [ExpertiseArea, Intro, LanguageTools, DevOps, Loader, Databases],
   template: `
     @defer(on immediate){
       <intro/>
       <expertise-area/>
       <language-tools/>
-      <in-work/>
+      <databases/>
+      <devops/>
     }@placeholder {
       <loader/>
     }

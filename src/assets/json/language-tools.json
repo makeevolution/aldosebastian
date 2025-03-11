@@ -28,7 +28,19 @@
     "url": "https://angular.dev/"
   },
   {
-    "name": "CSS",
+    "name": "Docker",
+    "url": "https://docker.io/"
+  },
+  {
+    "name": "Kubernetes",
+    "url": "https://python.com/"
+  },
+  {
+    "name": "OpenTelemetry",
+    "url": "https://opentelemetry.io/"
+  },
+  {
+    "name": "Bash",
     "url": "https://en.wikipedia.org/wiki/CSS"
   },
   {
