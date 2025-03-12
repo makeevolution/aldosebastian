@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation, computed, inject } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { DarkModeService } from '@core/services/dark-mode.service';
-import { ShapeData } from '@pages/home/components/intro/man-sorrow/shape/shape.interface';
+import { ShapeData } from '@pages/home/components/intro/typing-bro/shape/shape.interface';
 import { cloud, floor, logo, man, background, plant, sea, stars, sun } from '@pages/home/components/intro/typing-bro/shape';
 import { PlatformCheckService } from '@core/services/platform-check.service';
 @Component({

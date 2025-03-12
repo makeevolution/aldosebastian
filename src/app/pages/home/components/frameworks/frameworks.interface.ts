@@ -1,6 +1,6 @@
 import { TechToolName } from "@data/schema/tech-tool-name.schema";
 
-export interface IDevOpsData {
+export interface IFrameworksData {
   name: TechToolName;
   url: string;
 }

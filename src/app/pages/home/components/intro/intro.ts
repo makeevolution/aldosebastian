@@ -2,7 +2,6 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Inject, ViewEnca
 import { Subscription, interval } from 'rxjs';
 import { PlatformCheckService } from '@core/services/platform-check.service';
 import { Button } from '@shared/components/button/button';
-import { ManSorrow } from '@pages/home/components/intro/man-sorrow/man-sorrow';
 import { SocialLink } from '@shared/components/social-link/social-link';
 import  ProfileData from '@data/profile.data'
 import { ProfileSchema } from '@data/schema/profile.schema';

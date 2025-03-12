@@ -1,38 +1,30 @@
 [
     {
-      "name": "C-sharp",
-      "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-    },
-    {
       "name": ".NET Core",
       "url": "https://en.wikipedia.org/wiki/ASP.NET_Core"
     },
     {
-      "name": "Python",
-      "url": "https://python.com/"
+      "name": "Django-DRF",
+      "url": "https://www.djangoDRF.org/"
     },
     {
       "name": "Flask",
       "url": "https://flask.com"
     },
     {
-      "name": "TypeScript",
-      "url": "https://www.typescriptlang.org/"
-    },
-    {
-      "name": "DjangoDRF",
-      "url": "https://www.djangoDRF.org/"
-    },
-    {
       "name": "Angular",
       "url": "https://angular.dev/"
     },
     {
-      "name": "Docker",
-      "url": "https://docker.io/"
+      "name": "Vue",
+      "url": "https://vuejs.org/"
     },
     {
-      "name": "Kubernetes",
-      "url": "https://python.com/"
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/"
+    },
+    {
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com/"
     }
 ]

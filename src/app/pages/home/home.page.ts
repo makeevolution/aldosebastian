@@ -4,7 +4,8 @@ import profileData from '@data/profile.data';
 import { ExpertiseArea } from '@pages/home/components/expertise-area/expertise-area';
 import { Intro } from '@pages/home/components/intro/intro';
 import { LanguageTools } from '@pages/home/components/language-tools/language-tools';
-import { DevOps } from '@pages/home/components/devops/devops'
+import { DevOps } from '@pages/home/components/devops/devops';
+import { Frameworks } from '@pages/home/components/frameworks/frameworks';
 import { Databases } from '@pages/home/components/databases/databases';
 import { Loader } from '@shared/components/loader/loader';
 @Component({
@@ -12,12 +13,13 @@ import { Loader } from '@shared/components/loader/loader';
   standalone: true,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ExpertiseArea, Intro, LanguageTools, DevOps, Loader, Databases],
+  imports: [ExpertiseArea, Intro, LanguageTools, Frameworks, DevOps, Loader, Databases],
   template: `
     @defer(on immediate){
       <intro/>
       <expertise-area/>
       <language-tools/>
+      <frameworks/>
       <databases/>
       <devops/>
     }@placeholder {

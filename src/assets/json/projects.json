@@ -56,7 +56,6 @@
                     "id": 2,
                     "website": null,
                     "playstore": null,
-                    "github": "https://bitbucket.org/marckevinflores/datingapp",
                     "appstore": null
                 },
                 "picture": {
@@ -170,7 +169,6 @@
                     "id": 3,
                     "website": "https://usap-chat.netlify.app",
                     "playstore": null,
-                    "github": "https://github.com/marckevinflores/usap-chat",
                     "appstore": null
                 },
                 "picture": {
@@ -275,7 +273,6 @@
                     "id": 4,
                     "website": null,
                     "playstore": null,
-                    "github": "https://github.com/marckevinflores/devconnector",
                     "appstore": null
                 },
                 "picture": {
@@ -362,7 +359,6 @@
                     "id": 5,
                     "website": "https://lakbayan.netlify.app/",
                     "playstore": null,
-                    "github": "https://bitbucket.org/marckevinflores/lakbayan",
                     "appstore": null
                 },
                 "picture": {

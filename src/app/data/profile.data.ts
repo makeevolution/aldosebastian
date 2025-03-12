@@ -2,7 +2,7 @@ import { ProfileSchema } from "@data/schema/profile.schema";
 
 const profileData: ProfileSchema = {
   name: 'Aldo Sebastian',
-  bio: 'Backend Software Engineer',
+  bio: 'T-Shaped Backend Software Engineer',
   resumeLink: `cv.pdf`,
   greetings: [
     'Selamat datang',
