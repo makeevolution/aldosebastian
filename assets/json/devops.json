@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Docker",
+      "url": "https://docker.io/"
+    },
+    {
+      "name": "Kubernetes",
+      "url": "https://python.com/"
+    },
+    {
+        "name": "Jenkins",
+        "url": "https://jenkins.org/"
+      },
+      {
+        "name": "GithubActions",
+        "url": "github.com"
+      },
+      {
+        "name": "OpenTelemetry",
+        "url": "https://opentelemetry.io/"
+      },
+      {
+        "name": "Prometheus",
+        "url": "https://prometheus.io/"
+      },
+      {
+        "name": "Jaeger",
+        "url": "https://www.jaegertracing.io/"
+      }
+]
