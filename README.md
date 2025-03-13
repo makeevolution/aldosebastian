@@ -24,3 +24,7 @@ npm install
 npm start
 ```
 Access the website locally through http://localhost:4200
+
+
+## Deployment notes
+If you are deploying and do not deploy to your own custom domain, set `"baseHref": "/yourreponame/"` entry under deploy in `angular.json`!

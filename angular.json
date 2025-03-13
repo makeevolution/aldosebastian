@@ -174,8 +174,7 @@
           "options": {
             "repo": "https://github.com/makeevolution/aldosebastian.git",
             "branch": "gh-pages",
-            "dir": "dist/",
-            "baseHref": "/aldosebastian/"
+            "dir": "dist/"
           }
         }
       }
