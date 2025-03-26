@@ -14,8 +14,8 @@ export class FrameworksService {
   constructor() {
     this.getAll();
   }
-  private jsonUrl = `http://localhost:4200/assets/json/frameworks.json`;
-
+  //private jsonUrl = `http://localhost:4200/assets/json/frameworks.json`;
+  private jsonUrl = `https://aldosebastian.com/assets/json/frameworks.json`;
   public state = signal<FrameworksState>({ data: [] });
   public frameworksTools: Signal<IFrameworksData[]> = computed(
     () => this.state().data

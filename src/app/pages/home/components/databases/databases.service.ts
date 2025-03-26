@@ -14,8 +14,8 @@ export class DatabasesService {
   constructor() {
     this.getAll();
   }
-  private jsonUrl = `http://localhost:4200/assets/json/databases.json`;
-
+  // private jsonUrl = `http://localhost:4200/assets/json/databases.json`;
+  private jsonUrl = `https://aldosebastian.com/assets/json/databases.json`;
   public state = signal<DatabasesState>({ data: [] });
   public databasesTools: Signal<IDatabasesData[]> = computed(
     () => this.state().data

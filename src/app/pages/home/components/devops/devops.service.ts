@@ -14,8 +14,8 @@ export class DevOpsService {
   constructor() {
     this.getAll();
   }
-  private jsonUrl = `http://localhost:4200/assets/json/devops.json`;
-
+  //private jsonUrl = `http://localhost:4200/assets/json/devops.json`;
+  private jsonUrl = `https://aldosebastian.com/assets/json/devops.json`;
   public state = signal<DevOpsState>({ data: [] });
   public devopsTools: Signal<IDevOpsData[]> = computed(
     () => this.state().data
