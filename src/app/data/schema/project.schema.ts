@@ -3,6 +3,7 @@ import { TechToolName } from "./tech-tool-name.schema";
 export interface ProjectSchema {
   id: number;
   title: string;
+  subtitle: string;
   description: string;
   thumbnail: string;
   links: ProjectLinks;

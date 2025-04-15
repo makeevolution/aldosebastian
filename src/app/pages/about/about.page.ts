@@ -46,30 +46,29 @@ export class AboutPage {
   public aboutDetails = [
       {
         "title": "What I Do",
-        "desc": `I specialize in C# and Python development, working on diverse projects such as  
-        desktop applications, backend services, and performance optimization.  
-        I write clean, maintainable code and prioritize software architecture best practices.  
-        My focus is on creating efficient, scalable solutions that align with user needs  
-        and industry standards.`
+        "desc": `I am enthusiastic in C# and Python software development, working on diverse projects such as  
+        desktop applications, web-backend services, and scalable, robust deployment thereof.
+        I strive to write clean, maintainable code and follow software architecture best practices.  
+        My focus is on creating efficient, scalable solutions that align with user needs and industry standards.`
       },
       {
         "title": "Always Learning",
-        "desc": `I'm passionate about continuous learning, always seeking out new C# techniques,  
+        "desc": `I'm passionate about continuous learning, always experimenting with new techniques,  
         frameworks, and best practices. Whether it's improving my coding skills or exploring  
         emerging technologies, I enjoy staying ahead and growing as a developer.`
       },
       {
         "title": "Off-Duty Fun",
-        "desc": `When I'm not coding, I love diving into tech blogs, experimenting with new  
-        programming concepts, and honing my skills. I also enjoy gaming, watching videos,  
-        listening to music, and unwinding with walks outside. Spending time with family  
-        and friends is just as important to me.`
+        "desc": `When I'm not coding, I love diving into tech blogs and readi on software engineering best practices. 
+         also enjoy gaming, particularly first-person adventure games, as well as playing to music, and weightlifting. Spending time with family  
+        and friends is also just as important to me.`
       },
       {
-        "title": "Why I Code",
-        "desc": `Coding empowers me to bring ideas to life. It’s a creative process that allows me  
-        to develop meaningful solutions while constantly challenging myself to grow.  
-        I love solving problems, refining my skills, and making a real impact through technology.`
+        "title": "My Journey",
+        "desc": `I didn't start out as a developer; I was a mechanical engineering graduate. I was exposed to coding and software engineering during the pandemic,
+        and I was hooked. I love the challenge of solving complex problems and the satisfaction of seeing a project come to life. I therefore started my journey as a 
+        QA and with the wonderful and supportive people I come across in my career, I was able to transition to become a software developer. It's still an ongoing journey,
+        and I'm excited to see where it takes me.`
       }
   ];
   public contactInfo = [
