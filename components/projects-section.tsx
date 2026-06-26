@@ -1,42 +1,31 @@
 import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
-import { GithubIcon } from "@/components/brand-icons"
 import { SectionHeading } from "@/components/section-heading"
 
 const projects = [
   {
-    title: "Pulse Analytics",
+    title: "Simple Pizza Winkel",
     description:
-      "A real-time analytics dashboard with customizable charts, team workspaces, and sub-second data refresh built on a streaming pipeline.",
+      "This is my personal project, to apply my learnings about microservices that I have seen and worked with in my current/previous software engineering job. \
+      The project is a pizza ordering system that allows users to order pizzas online. It consists of multiple microservices, each responsible for a specific part of the system.",
     image: "/projects/project-analytics.png",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "WebSockets"],
-    demo: "#",
-    repo: "#",
+    tags: [".NET", "Docker", "PostgreSQL", "Dapper", "Microservices"],
+    demo: "https://github.com/makeevolution/SimplePizzaWinkel#demo",
   },
   {
-    title: "Marketplace Kit",
+    title: "Zeg Het Maar",
     description:
-      "An open-source e-commerce starter with cart, checkout, and a headless CMS-driven storefront optimized for Core Web Vitals.",
+      "A simple app to help me learn the Dutch language.",
     image: "/projects/project-commerce.png",
-    tags: ["React", "Stripe", "Tailwind", "Prisma"],
-    demo: "#",
-    repo: "#",
-  },
-  {
-    title: "DevForge CLI",
-    description:
-      "A developer tool that scaffolds production-ready projects, automates linting and CI, and ships with an interactive terminal UI.",
-    image: "/projects/project-devtool.png",
-    tags: ["Node.js", "TypeScript", "Docker", "GitHub Actions"],
-    demo: "#",
-    repo: "#",
-  },
+    tags: ["React", "NextJS", "Tailwind"],
+    demo: "https://zeghetmaar.onrender.com",
+  }
 ]
 
 export function ProjectsSection() {
   return (
     <section id="work" className="mx-auto max-w-5xl px-6 py-24">
-      <SectionHeading index="03" title="Selected work" />
+      <SectionHeading index="03" title="Projects" />
 
       <div className="flex flex-col gap-6">
         {projects.map((project, i) => (
@@ -80,13 +69,7 @@ export function ProjectsSection() {
                   href={project.demo}
                   className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-primary"
                 >
-                  Live demo <ArrowUpRight className="size-4" />
-                </a>
-                <a
-                  href={project.repo}
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-                >
-                  <GithubIcon className="size-4" /> Code
+                  More details <ArrowUpRight className="size-4" />
                 </a>
               </div>
             </div>

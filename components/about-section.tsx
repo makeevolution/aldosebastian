@@ -1,4 +1,5 @@
 import { SectionHeading } from "@/components/section-heading"
+import Image from "next/image";
 
 const facts = [
   { label: "Years building software", value: "6+" },
@@ -15,34 +16,36 @@ export function AboutSection() {
         <div className="space-y-4 leading-relaxed text-muted-foreground md:col-span-3">
           <p>
             {
-              "I'm a software engineer who enjoys turning complex problems into simple, elegant interfaces. My focus is on writing clean, maintainable code and building products that feel fast and intuitive."
+              "I'm a software engineer with 5 years of experience."
             }
           </p>
           <p>
-            {
-              "I started my journey customizing themes for a personal blog and quickly fell in love with the craft of software. Since then I've worked with startups and larger teams, shipping everything from marketing sites to data-heavy dashboards."
-            }
+            I am enthusiastic in C# and Python software development, working on diverse projects such as
+            desktop applications, web-backend services, and scalable, robust deployment thereof.
+            I strive to write clean, maintainable code and follow software architecture best practices.
+            My focus is on creating efficient, scalable solutions that align with user needs and industry standards.
           </p>
           <p>
-            When I&apos;m not at the keyboard, you&apos;ll find me contributing
-            to open source, mentoring junior developers, or hunting down the
-            perfect cup of coffee.
+            I'm passionate about continuous learning, always experimenting with new techniques,
+            frameworks, and best practices. Whether it's improving my coding skills or exploring
+            emerging technologies, I enjoy staying ahead and growing as a developer.`
+          </p>
+          <p>
+            I didn't start out as a developer; I was a mechanical engineering graduate. I was exposed to coding and software engineering during the pandemic,
+            and I was hooked. I love the challenge of solving complex problems and the satisfaction of seeing a project come to life. I therefore started my journey as a
+            QA and with the wonderful and supportive people I come across in my career, I was able to transition to become a software developer. It's still an ongoing journey,
+            and I'm excited to see where it takes me.
           </p>
         </div>
-
-        <dl className="grid grid-cols-3 gap-4 md:col-span-2 md:grid-cols-1">
-          {facts.map((fact) => (
-            <div
-              key={fact.label}
-              className="rounded-lg border border-border bg-card p-5"
-            >
-              <dt className="text-sm text-muted-foreground">{fact.label}</dt>
-              <dd className="mt-1 text-2xl font-semibold text-foreground">
-                {fact.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
+        <div className="md:col-span-2 flex items-center justify-center">
+            <Image
+              src="/profile-picture.png"
+              alt="Profile picture"
+              width={300}
+              height={400}
+              className="rounded-lg object-cover"
+            />
+          </div>
       </div>
     </section>
   )

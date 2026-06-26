@@ -10,10 +10,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Alex Rivera — Software Engineer',
-  description:
-    'Alex Rivera is a software engineer who builds fast, accessible web applications. View selected projects, skills, and ways to get in touch.',
-  generator: 'v0.app',
+  title: 'Aldo Sebastian',
+  description: '',
   icons: {
     icon: [
       {

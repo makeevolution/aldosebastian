@@ -1,26 +1,31 @@
-import { Code2, Database, Cloud, Palette } from "lucide-react"
+import { Code2, Database, Cloud, FlaskConical, Wrench } from "lucide-react"
 import { SectionHeading } from "@/components/section-heading"
 
 const groups = [
   {
     icon: Code2,
     title: "Languages & Frameworks",
-    items: ["TypeScript", "JavaScript", "React", "Next.js", "Node.js", "Python"],
+    items: [".NET", "Python", "Angular", "Django", "Flask", "NextJS", "SQLAlchemy", "Groovy"],
   },
   {
-    icon: Palette,
-    title: "Front-end & Design",
-    items: ["Tailwind CSS", "Framer Motion", "Accessibility", "Figma", "Design Systems"],
+    icon: FlaskConical,
+    title: "Testing",
+    items: ["XUnit", "Pytest", "Moq", "SpecFlow", "Jasmine"],
+  },
+  {
+    icon: Cloud,
+    title: "DevOps & CI/CD",
+    items: ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "TeamCity", "Atlassian Bamboo", "Helm"],
   },
   {
     icon: Database,
     title: "Data & Backend",
-    items: ["PostgreSQL", "Prisma", "REST", "GraphQL", "Redis"],
+    items: ["MySQL", "SQLite", "ElasticSearch", "Redis", "RabbitMQ", "OpenTelemetry", "Domain Driven Design"],
   },
   {
-    icon: Cloud,
-    title: "Tooling & DevOps",
-    items: ["Vercel", "Docker", "GitHub Actions", "Git", "Vitest"],
+    icon: Wrench,
+    title: "Tools & Observability",
+    items: ["Git", "Grafana", "Loki", "Splunk", "Swagger", "Jira", "k9s", "Rancher", "Claude Code", "GitHub Copilot"],
   },
 ]
 
@@ -29,7 +34,7 @@ export function SkillsSection() {
     <section id="skills" className="mx-auto max-w-5xl px-6 py-24">
       <SectionHeading index="02" title="Skills & tools" />
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {groups.map((group) => (
           <div
             key={group.title}

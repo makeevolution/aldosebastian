@@ -34,7 +34,7 @@ export function SiteHeader() {
           href="#top"
           className="font-mono text-sm font-semibold tracking-tight text-foreground"
         >
-          alex<span className="text-primary">.</span>rivera
+          aldo<span className="text-primary"></span>sebastian
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
